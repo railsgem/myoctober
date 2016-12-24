@@ -15,13 +15,15 @@ description = "Default layout"
         <link href="{{ 'assets/compiled/css/style.css'|theme }}" rel="stylesheet">
     </head>
     <body>
-       
+
         {% partial "header" %}
 
-        <!-- Content -->
-        <section id="layout-content" class="container clearfix">   
-            {% page %}
-        </section>
+          <!-- Content -->
+          <section id="layout-content" class="container clearfix">
+          <div class="container">
+              {% page %}
+            </div >
+          </section>
 
         {% partial "footer" %}
 
