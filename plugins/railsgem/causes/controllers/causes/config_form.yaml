@@ -1,0 +1,10 @@
+name: Causes
+form: $/railsgem/causes/models/cause/fields.yaml
+modelClass: Railsgem\Causes\Models\Cause
+defaultRedirect: railsgem/causes/causes
+create:
+    redirect: 'railsgem/causes/causes/update/:id'
+    redirectClose: railsgem/causes/causes
+update:
+    redirect: railsgem/causes/causes
+    redirectClose: railsgem/causes/causes

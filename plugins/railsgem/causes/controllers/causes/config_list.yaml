@@ -1,0 +1,11 @@
+title: Causes
+modelClass: Railsgem\Causes\Models\Cause
+list: $/railsgem/causes/models/cause/columns.yaml
+recordUrl: 'railsgem/causes/causes/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

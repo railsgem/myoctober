@@ -1,0 +1,11 @@
+plugin:
+    name: 'railsgem.causes::lang.plugin.name'
+    description: 'railsgem.causes::lang.plugin.description'
+    author: railsgem
+    icon: oc-icon-child
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Cause
+        url: railsgem/causes/causes
+        icon: icon-child

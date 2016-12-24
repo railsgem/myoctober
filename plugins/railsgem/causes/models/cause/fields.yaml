@@ -1,0 +1,12 @@
+fields:
+    NAME:
+        label: 'CAUSE NAME'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    description:
+        label: DESCRIPTION
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: richeditor

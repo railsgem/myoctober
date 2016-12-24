@@ -1,0 +1,4 @@
+title: Causes
+modelClass: Railsgem\Causes\Models\Cause
+toolbar:
+    buttons: reorder_toolbar
